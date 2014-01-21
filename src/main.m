@@ -20,7 +20,7 @@ static void print_usage(FILE *fp)
 {
     fprintf(fp, "\
 Usage: \n\
-    " PROGRAM_NAME " [--fast-forward-command <command>] \
+    " PROGRAM_NAME " [--fast-forward-command <command>]\n\
         [--play-pause-command <command>] [--rewind-command <command>]\n\
     " PROGRAM_NAME " --help\n");
 }
