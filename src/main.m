@@ -7,7 +7,8 @@
  *
  */
 
-#import <Foundation/Foundation.h>
+@import Foundation;
+
 #import <getopt.h>
 #import <stdio.h>
 #import <stdlib.h>

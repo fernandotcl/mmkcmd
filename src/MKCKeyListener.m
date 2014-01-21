@@ -7,7 +7,8 @@
  *
  */
 
-#import <AppKit/AppKit.h>
+@import AppKit;
+
 #import <IOKit/hidsystem/ev_keymap.h>
 #import <paths.h>
 
