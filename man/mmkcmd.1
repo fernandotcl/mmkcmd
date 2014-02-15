@@ -1,0 +1,22 @@
+.TH MMKCMD 1 2014-02-15 "mmkcmd" "mmkcmd Manual"
+.SH NAME
+mmkcmd \- Maps OS X multimedia keys to commands
+.SH SYNOPSIS
+.B mmkcmd \fR[\fIoptions\fR]
+.SH DESCRIPTION
+mmkcmd is a simple utility for OS X that maps multimedia keys to commands specified on the command line.
+
+mmkcmd can be invoked with no command line arguments. In that case, it simply prevents other applications such as iTunes from being able to process them.
+.SH OPTIONS
+.TP 31
+.B \-f\fR/\fB\-\-fast\-forward\-command \fIcmd
+Execute command \fIcmd\fR when the fast-forward key is pressed
+.TP
+.B \-h\fR/\fB\-\-help
+Display usage information and exit
+.TP
+.B \-p\fR/\fB\-\-play\-pause\-command \fIcmd
+Execute command \fIcmd\fR when the play/pause key is pressed
+.TP
+.B \-r\fR/\fB\-\-rewind\-command \fIcmd
+Execute command \fIcmd\fR when the rewind key is pressed
